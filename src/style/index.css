@@ -1,0 +1,50 @@
+.beijing{
+  background-image: url(@/static/image/5150f2fe2c7b60b9bc26498b71336886.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover ;
+  min-height: 100vh;
+}
+.meituan-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+.login-content{
+  width: 500px;
+  height: 300px;
+  background-color: #f9de80;
+  border-radius: 5px;
+}
+.meituan-title{
+  text-align: center;
+  color: #000000;
+  font-size: 30px;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.inputflex{
+  flex: 1;
+}
+.reg-view{
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+}
+.reg-view span{
+  cursor: pointer;
+}
+.denglu{
+  text-align: center;
+  padding-top: 5px;
+}
+.user_page{
+  width: 100%;
+  height: 100%;
+  padding: 0 5%;
+}
